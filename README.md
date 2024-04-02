@@ -1,7 +1,6 @@
-<H3>ENTER YOUR NAME</H3>
-<H3>ENTER YOUR REGISTER NO.</H3>
+
 <H3>EX. NO.5</H3>
-<H3>DATE:</H3>
+
 <H1 ALIGN =CENTER> Implementation of Kalman Filter</H1>
 <H3>Aim:</H3> To Construct a Python Code to implement the Kalman filter to predict the position and velocity of an object.
 <H3>Algorithm:</H3>
@@ -15,7 +14,7 @@ Step 6: Plot the true and estimated positions.<BR>
 <H3>Program:</H3>
 ## Name: Rakshitha devi J
 ## reg no:212221230082
-
+```
 import numpy as np
 class KalmanFilter:
   def __init__ (self,F,H,Q,R,x0,P0):
@@ -75,9 +74,11 @@ plt.plot([s[0] for s in est_states], label='estimate')
 plt.legend()
 plt.show()
 
-
+```
 <H3>Output:</H3>
-Show the results here
+
+![image](https://github.com/Rakshithadevi/Ex-5--AAI/assets/94165326/38dfa5d7-96bc-491c-ae14-8f60cff5546e)
+
 
 <H3>Results:</H3>
 Thus, Kalman filter is implemented to predict the next position and   velocity in Python
