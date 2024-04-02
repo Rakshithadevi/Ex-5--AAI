@@ -1,17 +1,18 @@
 
-<H3>EX. NO.5</H3>
+## EX. NO.5
 
-<H1 ALIGN =CENTER> Implementation of Kalman Filter</H1>
-<H3>Aim:</H3> To Construct a Python Code to implement the Kalman filter to predict the position and velocity of an object.
-<H3>Algorithm:</H3>
-Step 1: Define the state transition model F, the observation model H, the process noise covariance Q, the measurement noise covariance R, the initial state estimate x0, and the initial error covariance P0.<BR>
-Step 2:  Create a KalmanFilter object with these parameters.<BR>
-Step 3: Simulate the movement of the object for a number of time steps, generating true states and measurements. <BR>
-Step 3: For each measurement, predict the next state using kf.predict().<BR>
-Step 4: Update the state estimate based on the measurement using kf.update().<BR>
-Step 5: Store the estimated state in a list.<BR>
-Step 6: Plot the true and estimated positions.<BR>
-<H3>Program:</H3>
+## Implementation of Kalman Filter
+## Aim:
+To Construct a Python Code to implement the Kalman filter to predict the position and velocity of an object.
+## Algorithm:
+Step 1: Define the state transition model F, the observation model H, the process noise covariance Q, the measurement noise covariance R, the initial state estimate x0, and the initial error covariance P0.
+Step 2:  Create a KalmanFilter object with these parameters.
+Step 3: Simulate the movement of the object for a number of time steps, generating true states and measurements
+Step 3: For each measurement, predict the next state using kf.predict()
+Step 4: Update the state estimate based on the measurement using kf.update().
+Step 5: Store the estimated state in a list.
+Step 6: Plot the true and estimated positions.
+## Program:
 ## Name: Rakshitha devi J
 ## reg no:212221230082
 ```
@@ -75,12 +76,12 @@ plt.legend()
 plt.show()
 
 ```
-<H3>Output:</H3>
+## Output:
 
 ![image](https://github.com/Rakshithadevi/Ex-5--AAI/assets/94165326/38dfa5d7-96bc-491c-ae14-8f60cff5546e)
 
 
-<H3>Results:</H3>
+## Results:
 Thus, Kalman filter is implemented to predict the next position and   velocity in Python
 
 
